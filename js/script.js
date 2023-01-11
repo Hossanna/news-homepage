@@ -8,6 +8,6 @@ function showMenu(){
 }
 
 function hideMenu(){
-    navMenu.style.right= "-500px"
+    navMenu.style.right= "-400px"
 }
 
