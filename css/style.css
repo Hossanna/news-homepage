@@ -147,6 +147,9 @@
     .none{
         display: none;
     }
+    .fa{
+        display: none !important;
+    }
 }
 
 @media screen and (min-width:1025px) and (max-width: 1114px){
@@ -298,6 +301,9 @@
     .none{
         display: none;
     }
+    .fa{
+        display: none !important;
+    }
 
 }
 
@@ -344,7 +350,7 @@
     
     .two{
         width: 33%;
-        height: 470px;
+        height: 480px;
         padding: 2%;
         margin-left: 3%;
         margin-top: 1.2%;
@@ -451,6 +457,9 @@
     .none{
         display: none;
     }
+    .fa{
+        display: none !important;
+    }
 
 }
 @media screen and (min-width:500px) and (max-width:800px){
@@ -473,15 +482,46 @@
     #logo{
         width: 25%;
         height: 25%;
-        /* margin-right: 50%; */
+        margin-right: 60%;
     }
-    nav{
-        /* align-content: flex-end;
-        justify-content: space-between;
-        width: 45%;
-        padding-top: 1%; */
-        display: none;
+    nav .fa{
+        display: block;
+        color: #000;
+        margin: 10%;
+        margin-left: 80%;
+        font-size: 30px;
+        cursor: pointer;
     }
+    
+
+    i.fa-bars {
+        margin-top: 5%;
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .navbar{
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 100vh;
+        text-align: left;
+        top: 0;
+        right: -500px;
+        z-index: 2;
+        transition: 2s;
+        background-color: hsl(36, 100%, 99%);
+    }
+
+
+    nav p{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        margin: 10%;
+    }
+
     .imgg{
         width: 100%;
         height: 50%;
@@ -634,15 +674,47 @@
     #logo{
         width: 25%;
         height: 25%;
-        /* margin-right: 50%; */
+        margin-right: 60%;
     }
-    nav{
-        /* align-content: flex-end;
-        justify-content: space-between;
-        width: 45%;
-        padding-top: 1%; */
-        display: none;
+    
+    nav .fa{
+        display: block;
+        color: #000;
+        margin: 10%;
+        margin-left: 80%;
+        font-size: 30px;
+        cursor: pointer;
     }
+    
+
+    i.fa-bars {
+        margin-top: 5%;
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+
+    .navbar{
+        display: block;
+        position: absolute;
+        width: 500px;
+        height: 100vh;
+        text-align: left;
+        top: 0;
+        right: -500px;
+        z-index: 2;
+        transition: 2s;
+        background-color: hsl(36, 100%, 99%);
+    }
+
+
+    nav p{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        margin: 10%;
+    }
+
     .imgg{
         width: 100%;
         height: 50%;

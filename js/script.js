@@ -1,3 +1,5 @@
+
+
 var navMenu = document.getElementById("navMenu")
 var contact = document.getElementById("contact")
 
@@ -6,6 +8,6 @@ function showMenu(){
 }
 
 function hideMenu(){
-    navMenu.style.right= "-200px"
+    navMenu.style.right= "-500px"
 }
 

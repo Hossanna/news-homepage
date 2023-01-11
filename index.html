@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
 
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
   <link rel="stylesheet" href="assets/fonts/Inter-VariableFont_slnt,wght.ttf">
@@ -28,13 +29,15 @@
   <header>
     <div class="flex">
       <img id="logo" src="assets/images/logo.svg" alt="">
-      <nav class="flex" id="navMenu">
-        <i class="fa fa-times" onclick="hideMenu()"></i>
+      <nav class="flex nav" >
+        <div class="navbar" id="navMenu">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <p class="h">Home</p>
           <p class="h">New</p>
           <p class="h">Popular</p>
           <p class="h">Trending</p>
           <p class="h">Categories</p>
+        </div>
         
       </nav>
       <i class="fa fa-bars" onclick="showMenu()"></i>
