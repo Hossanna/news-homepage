@@ -6,7 +6,7 @@
     }
     
     body{
-        padding: 5% 15%;
+        padding: 5% 10%;
         font-size: 15px;
         font-family: Inter;
     }
@@ -40,7 +40,7 @@
     
     .two{
         width: 33%;
-        height: 450px;
+        height: 470px;
         padding: 2%;
         margin-left: 3%;
         margin-top: 1.15%;
