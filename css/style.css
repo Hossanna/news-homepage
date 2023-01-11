@@ -482,7 +482,7 @@
     #logo{
         width: 20%;
         height: 20%;
-        margin-right: 60%;
+        margin-right: 70%;
     }
     nav .fa{
         display: block;
@@ -532,11 +532,10 @@
     .h1{
         font-size: 40px;
         font-weight: 900;
+        margin-top: 3%;
     }
     
     .two{
-        /* width: 33%; */
-        /* height: 450px; */
         padding: 5%;
         width: 100%;
         margin-top: 1.15%;
@@ -563,20 +562,13 @@
         color: hsl(35, 77%, 62%);
     }
     
-    /* .img{
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    } */
     .a{
         margin-top: 1%;
     }
     .b{
         width: 100%;
-        /* margin-left: 4%; */
-        margin-top: 2%;
+        margin-top: 3%;
         color: hsl(236, 13%, 42%);
-        /* line-height-step: 2px; */
     }
     p{
         text-align: left;
@@ -588,6 +580,7 @@
         color: hsl(36, 100%, 99%);
         text-transform: uppercase;
         border: none;
+        margin-top: 5%;
         margin: 7% 0;
         font-size: 1em;
         letter-spacing: 3px;
@@ -597,7 +590,6 @@
     }
     
     .three{
-        /* height: 20px; */
         width: 100%;
         margin: 4% 0;
     }
@@ -674,7 +666,7 @@
     #logo{
         width: 20%;
         height: 20%;
-        margin-right: 60%;
+        margin-right: 70%;
     }
     
     nav .fa{
@@ -725,10 +717,10 @@
     .h1{
         font-size: 40px;
         font-weight: 900;
+        margin-top: 3%;
     }
     
     .two{
-        /* width: 33%; */
         height: 450px;
         padding: 3%;
         width: 100%;
@@ -756,20 +748,13 @@
         color: hsl(35, 77%, 62%);
     }
     
-    /* .img{
-        width: 100%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    } */
     .a{
         margin-top: 1%;
     }
     .b{
         width: 100%;
-        /* margin-left: 4%; */
-        margin-top: 2%;
+        margin-top: 3%;
         color: hsl(236, 13%, 42%);
-        /* line-height-step: 2px; */
     }
     p{
         text-align: left;
@@ -781,6 +766,7 @@
         color: hsl(36, 100%, 99%);
         text-transform: uppercase;
         border: none;
+        margin-top: 5%;
         margin: 7% 0;
         font-size: 1em;
         letter-spacing: 3px;
@@ -790,7 +776,6 @@
     }
     
     .three{
-        /* height: 20px; */
         width: 100%;
         margin: 4% 0;
     }
