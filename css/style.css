@@ -1,4 +1,4 @@
-@media screen and (min-width:1024px){
+@media screen and (min-width:1115px){
     *{
         box-sizing: border-box;
         margin: 0;
@@ -150,7 +150,156 @@
 }
 
 
-@media screen and (min-width:801px) and (max-width: 1023px){
+@media screen and (min-width:801px) and (max-width: 1115px){
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        padding: 5% 15%;
+        font-size: 15px;
+        font-family: Inter;
+    }
+    .flex{
+        display: flex;
+    }
+    
+    #logo{
+        width: 5%;
+        height: 5%;
+        margin-right: 50%;
+    }
+    nav{
+        align-content: flex-end;
+        justify-content: space-between;
+        width: 45%;
+        padding-top: 1%;
+    }
+    main{
+        margin: 3% 0;
+    }
+    .h1{
+        font-size: 45px;
+        font-weight: 900;
+        width: 50%;
+    }
+    
+    .one{
+        width: 67%;   
+    }
+    
+    .two{
+        width: 33%;
+        height: 450px;
+        padding: 2%;
+        margin-left: 3%;
+        margin-top: 1.15%;
+        background-color: hsl(240, 100%, 5%);
+    }
+    .two h4{
+        color:  hsl(36, 100%, 99%);
+        margin-bottom: 2%;
+        font-size: 18px;
+    }
+    .two p{
+        color: hsl(233, 8%, 79%);
+    }
+    
+    .two div{
+        padding: 8% 0;
+        border-bottom: 0.5px solid hsl(36deg 100% 99% / 35%);
+    }
+    #vc{
+        border-bottom: none;
+    }
+    
+    #new{
+        color: hsl(35, 77%, 62%);
+    }
+    
+    .img{
+        width: 100%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .a{
+        margin-top: 1%;
+    }
+    .b{
+        width: 50%;
+        margin-left: 4%;
+        margin-top: 2%;
+        color: hsl(236, 13%, 42%);
+        line-height-step: 2px;
+    }
+    p{
+        text-align: left;
+    }
+    
+    button{
+        padding: 4% 8%;
+        background-color: hsl(5, 85%, 63%);
+        color: hsl(36, 100%, 99%);
+        text-transform: uppercase;
+        border: none;
+        margin: 7% 0;
+        font-size: 0.7em;
+        letter-spacing: 3px;
+    }
+    button:hover{
+        background-color: hsl(240, 100%, 5%);
+    }
+    
+    .three{
+        height: 120px;
+        margin: 4% 0;
+    }
+    
+    .three .flex{
+        width: 50%;
+    }
+    
+    .three img{
+        margin-right: 5%;
+    }
+    
+    .growth{
+        margin-left: 2%;
+    }
+    .laptops{
+        margin-left: 2%;
+    }
+    .p{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+    }
+    
+    .num{
+        color: hsl(233, 8%, 79%);
+        font-size: 2em;
+        font-weight: 800;
+        margin: 0;
+    }
+    .h4{
+        font-weight: 900;
+        font-size: 16px;
+    }
+    .q{
+         font-size: 0.8em;
+        color: hsl(236, 13%, 42%);
+    }
+    
+    .h:hover, .h4:hover{
+        color: hsl(5, 85%, 63%);
+    }
+    .none{
+        display: none;
+    }
 
 }
 @media screen and (min-width:500px) and (max-width:800px){
