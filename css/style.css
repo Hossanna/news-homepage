@@ -24,7 +24,7 @@
         width: 45%;
         padding-top: 1%;
     }
-    .navbar{
+    .navbarr{
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -182,7 +182,7 @@
         width: 45%;
         padding-top: 1%;
     }
-    .navbar{
+    .navbarr{
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -342,7 +342,7 @@
         width: 45%;
         padding-top: 1%;
     }
-    .navbar{
+    .navbarr{
         display: flex;
         width: 100%;
         justify-content: space-between;
