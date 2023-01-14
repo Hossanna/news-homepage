@@ -6,7 +6,7 @@ var logo = document.getElementById("logo")
 function showMenu(){
     
         navMenu.className = "navbar"
-        logo.style.marginRight = "40%"
+        logo.style.marginRight = "30%"
     
 
     // navMenu.classList.remove("navbar")
