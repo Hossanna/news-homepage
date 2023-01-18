@@ -640,7 +640,7 @@
         font-size: 18px;
     }
     .q{
-         font-size: 1em;
+        font-size: 1em;
         color: hsl(236, 13%, 42%);
     }
     
@@ -684,7 +684,7 @@
         display: block;
         color: #000;
         margin: 10%;
-        margin-left: 55%;
+        margin-left: 65%;
         font-size: 30px;
         cursor: pointer;
     }
@@ -816,16 +816,16 @@
     
     .num{
         color: hsl(233, 8%, 79%);
-        font-size: 1.5em;
+        font-size: 1.8em;
         font-weight: 800;
         margin: 0;
     }
     .h4{
         font-weight: 900;
-        font-size: 16px;
+        font-size: 18px;
     }
     .q{
-        font-size: .8em;
+        font-size: .9em;
         color: hsl(236, 13%, 42%);
     }
     
